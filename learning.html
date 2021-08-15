@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Mahfuz</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="javascript:void(0)">Blog</a>
+
+                    <ul>
+                        <li><a href="#">java</a></li>
+                        <li><a href="javascript:void(0)">c++</a>
+
+                            <ul>
+                                <li><a href="#">strings</a></li>
+                                <li><a href="#">arrays</a></li>
+                                <li><a href="#">pointer</a></li>
+                            </ul>
+                        
+                        </li>
+                        <li><a href="#">kotlin</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="full">
+        <div class="caption">Contact</div>
+        <div class="formBody">
+        <form>
+            <div><input type="text" placeholder="Username" id="uname" name="uname" autocomplete="off"></div>
+            <div><input type="email" placeholder="Email" id="mail" name="mail" autocomplete="off"></div>
+            <div><input type="password" id="pass" name="pass" placeholder="Password" autocomplete="off"></div>
+            <input type="submit" value="Submit" id="button">
+            <p class="ask">New User ? <a href="#">SignUp</a> or <a href="#">LogIn</a></p>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

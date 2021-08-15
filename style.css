@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    justify-content: space-between;
+    height: 60px;
+    background-color: #10ac84;
+    width: 100%;
+    align-items: center;
+}
+
+.container .navbar{
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar ul{
+    position: relative;
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li{
+    position: relative;
+    float: left;
+    line-height: 60px;
+}
+
+.navbar ul li:hover{
+    background-color: #1dd1a1;
+}
+
+.navbar ul li a{
+    display: block;
+    padding: 0px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-weight: 500px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navbar ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    background-color: #8395a7;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.navbar ul ul li{
+    float: none;
+    border-radius: 5px;
+}
+
+.navbar ul ul li:hover{
+    background-color: #576574;
+}
+
+.navbar ul li:hover > ul{
+    display: block;
+}
+
+.navbar ul ul ul{
+    left: 100%;
+    top: -2px;
+}
+
+.logo{
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500px ;
+    cursor: pointer;
+    letter-spacing: 3px;
+    /* width: 120px; */
+}
+
+.full{
+    width: 500px;
+    margin: 50px auto 0px auto;
+    background-color: #dde1e7;
+    height: 550px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+}
+.formBody{
+    margin: 15px auto 0px auto;
+    width: 400px;
+    padding: 50px;
+    height: 400px;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 7px;
+}
+
+input[placeholder]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+input[type='text']{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fcfcfc;
+    outline: none;
+}
+input[type='password']{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fcfcfc;
+    outline: none;
+}
+input[type='email']{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fcfcfc;
+    outline: none;
+}
+
+#button{
+    padding: 9px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8395a7;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.ask{
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+
+.ask a{
+    text-decoration: none;
+    color: #ff5252;
+    font-style: italic;
+}
+
+.caption{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    margin: auto;
+    width: 70px;
+}
